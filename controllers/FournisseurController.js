@@ -1,4 +1,4 @@
-const db = require('../config/db'); // ✔️ تأكد من أن هذا المسار صحيح
+const db = require('../config/db');
 const { exec } = require("child_process");
 const path = require("path");
 const fs = require("fs");

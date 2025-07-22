@@ -15,6 +15,8 @@ app.use('/api/clients', CRoutes);
 
 app.use('/api/fournisseurs', FRoutes);
 
+app.use('/api/personnels', require('./routes/persoRoutes')); 
+
 
 app.listen(3005, () => {
   console.log("Server running on port 3005");
